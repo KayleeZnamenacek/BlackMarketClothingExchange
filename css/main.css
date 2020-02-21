@@ -1,32 +1,5 @@
-*{
-    font: 1rem 'Lato', sans-serif;
-}
-
-li{
-    list-style: none;
-}
-
-ul{
-    margin-left: 0;
-}
-nav li{
-    display: inline-block;
-}
-
-/* footer stylizing*/
-footer div div{
-    display: inline-block;
-    
-}
-
-footer{
-    background-color: #f1efef;
-    padding: 1rem;
-}
 
 @charset "UTF-8";
-
-
 
 /*--------------------------------------------------------------
 >>> CSS STANDARDS
@@ -63,7 +36,9 @@ footer{
         - Size
 
 --------------------------------------------------------------*/
-
+*{
+    font: 1rem 'Lato', sans-serif;
+}
 /*--------------------------------------------------------------
 4.0 - ELEMENTS 
 -------------------------------------------------------------- */
@@ -71,19 +46,22 @@ footer{
 
 li {
     margin: 0 auto;
-}
-
-li {
     list-style: none;
+  
+}
+header li{
+    padding-left: 6em;
 }
 
 nav li {
     display: inline-block;
 }
 
-li {
-    padding-left: 6em;
+
+ul{
+    margin-left: 0;
 }
+
 
 /* Media */
 
@@ -99,6 +77,19 @@ nav li img {
 
 .bg-gray {
     padding: 1em 0;
+}
+
+/*--------------------------------------------------------------
+6.0 - COMPONENTS 
+-------------------------------------------------------------- */
+footer div div{
+    display: inline-block;
+    
+}
+
+footer{
+    background-color: #f1efef;
+    padding: 1rem;
 }
 
 
