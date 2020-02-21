@@ -1,3 +1,7 @@
+*{
+    font: 1rem 'Lato', sans-serif;
+}
+
 li{
     list-style: none;
 }
@@ -8,3 +12,15 @@ ul{
 nav li{
     display: inline-block;
 }
+
+/* footer stylizing*/
+footer div div{
+    display: inline-block;
+    
+}
+
+footer{
+    background-color: #f1efef;
+    padding: 1rem;
+}
+
