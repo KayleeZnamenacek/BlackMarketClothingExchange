@@ -50,11 +50,11 @@ li {
   
 }
 header li{
-    padding-left: 6em;
+    padding-left: 0;
 }
 
-nav li {
-    display: inline-block;
+header nav li {
+    display:block;
 }
 
 
@@ -86,6 +86,16 @@ nav li img {
 /*-- HEADER --*/
 .bg-image{
     padding: 2rem;
+}
+
+.title-bar{
+    background-color: #358889;
+}
+.top-bar, .top-bar ul {
+    background-color: #F1EFEF;
+}
+.top-bar a{
+    color: #358889;
 }
 
 
