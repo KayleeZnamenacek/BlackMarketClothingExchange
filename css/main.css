@@ -82,6 +82,15 @@ nav li img {
 /*--------------------------------------------------------------
 6.0 - COMPONENTS 
 -------------------------------------------------------------- */
+
+/*-- HEADER --*/
+.bg-image{
+    padding: 2rem;
+}
+
+
+
+/*-- NAVIGATION --*/
 footer div div{
     display: inline-block;
     
