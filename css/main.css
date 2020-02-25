@@ -42,12 +42,22 @@
 /*--------------------------------------------------------------
 4.0 - ELEMENTS 
 -------------------------------------------------------------- */
+
+/* TYPOGRAPHY */
+
+.bg-teal div{
+    text-align: center;
+}
+
 /* Lists */
 
 li {
     margin: 0 auto;
     list-style: none;
   
+}
+ul{
+    margin: 0 auto;
 }
 header li{
     padding-left: 0;
@@ -62,13 +72,10 @@ ul{
     margin-left: 0;
 }
 
-<<<<<<< Updated upstream
-=======
 .bg-teal p {
     color: #FFF;
 }
 
->>>>>>> Stashed changes
 
 /* Media */
 
@@ -91,10 +98,14 @@ nav li img {
 -------------------------------------------------------------- */
 
 /*-- HEADER --*/
+
 .bg-image{
     padding: 2rem;
 }
 
+.bg-image{
+    padding: 2rem;
+}
 .title-bar{
     background-color: #358889;
 }
@@ -106,12 +117,23 @@ nav li img {
 }
 
 
+/* BUTTONS */
+
+.button {
+    border-radius: 1px;
+    border-color: #f1efef;
+    background-color: transparent;
+
+} 
+
+.button:hover {
+    background-color: #f1efef;
+    color: #358889;
+}
+
 
 /*-- NAVIGATION --*/
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 footer div div{
     display: inline-block;
     
@@ -127,6 +149,16 @@ footer{
 7.0 - UTILITIES 
 -------------------------------------------------------------- */
 
+/*-- COLOR --*/
+
 .bg-gray {
     background-color: #f1efef;
 }
+
+.bg-teal {
+    background-color: #358889;
+}
+
+/*-- ALIGNMENT --*/
+
+
