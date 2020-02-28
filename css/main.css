@@ -45,7 +45,7 @@
 
 /* TYPOGRAPHY */
 
-.bg-teal div{
+pull-quote{
     text-align: center;
 }
 h1{ 
@@ -57,11 +57,15 @@ h1, h2{
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
 }
-.bg-image p{
+.bg-image p, .bg-teal{
     color: #fff;
 }
 
 .txt-center{
+    text-align: center;
+}
+
+.pull-quote{
     text-align: center;
 }
 
@@ -85,10 +89,6 @@ header nav li {
 
 ul{
     margin-left: 0;
-}
-
-.bg-teal p {
-    color: #FFF;
 }
 
 
@@ -115,8 +115,9 @@ nav li img {
 }
 
 /* FRAMEWORK */
-
-
+.margin-bottom{
+    margin: 2rem auto;
+}
 
 /*--------------------------------------------------------------
 6.0 - COMPONENTS 
@@ -176,6 +177,7 @@ footer{
 
 .bg-teal {
     background-color: #358889;
+    padding: 2rem 0;
 }
 
 
