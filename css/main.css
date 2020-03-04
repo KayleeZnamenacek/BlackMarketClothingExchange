@@ -51,7 +51,17 @@ pull-quote{
 h1{ 
     color: #fff;
     font-weight: 800;
+    font-size: 2rem;
     
+}
+h2, .bg-image p{ 
+    font-weight: 700;
+}
+h2{
+    font-size: 1.75rem;
+}
+h3{
+    font-weight: 500;
 }
 h1, h2, h3{
     text-transform: uppercase;
@@ -86,7 +96,9 @@ header li{
 header nav li {
     display: block;
 }
-
+footer nav li{
+    display: inline-block;
+}
 
 ul{
     margin-left: 0;
@@ -117,7 +129,7 @@ nav li img {
 
 /* FRAMEWORK */
 .margin-bottom{
-    margin: 3rem auto;
+    margin: 1rem auto 2rem;
 }
 
 /*--------------------------------------------------------------
@@ -180,7 +192,12 @@ footer{
     background-color: #358889;
     padding: 2rem 0;
 }
-
+p{ 
+    color: #343633;
+}
+.bg-teal p{
+    color: #FFF;
+}
 
 /*-- ALIGNMENT --*/
 
