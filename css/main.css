@@ -1,4 +1,3 @@
-
 @charset "UTF-8";
 
 /*--------------------------------------------------------------
@@ -45,7 +44,29 @@
 
 /* TYPOGRAPHY */
 
+
 pull-quote{
+    text-align: center;
+}
+h1{ 
+    color: #fff;
+    font-weight: 800;
+    
+}
+h1, h2, h3{
+    font-family: 'Playfair Display', serif;
+}
+
+.bg-image p, .bg-teal{
+    color: #fff;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.pull-quote{
+
     text-align: center;
 }
 h1{ 
@@ -85,6 +106,11 @@ header li{
 
 header nav li {
     display: block;
+}
+
+.sprites li{
+    display: inline-block;
+    margin:0 1em 0 0 ;
 }
 
 
@@ -165,6 +191,24 @@ footer{
     padding: 1rem;
 }
 
+
+/*-- sprites --*/
+.fa-facebook-f, .fa-instagram {
+    color: #fff;
+    size: 2px;
+  }
+
+.fa-facebook-f:hover, .fa-instagram:hover {
+    color: rgb(224, 224, 224);
+  }
+
+footer .fa-facebook-f, footer .fa-instagram{
+    color: #358889;
+}
+
+footer .fa-facebook-f:hover, footer .fa-instagram:hover {
+    color: #4abdbe;
+}
 
 /*--------------------------------------------------------------
 7.0 - UTILITIES 
