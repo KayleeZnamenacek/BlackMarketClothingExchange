@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 
 /*--------------------------------------------------------------
@@ -44,56 +45,40 @@
 
 /* TYPOGRAPHY */
 
-
 pull-quote{
     text-align: center;
 }
 h1{ 
     color: #fff;
     font-weight: 800;
-    font-size: 2rem;
     
 }
-h2{
-    font-size: 2rem;
-}
 
-h2, .bg-image p{ 
+h2 {
+    color: #358889;
     font-weight: 700;
 }
 
-h3{
-    font-weight: 500;
-}
-
-h1, h2, h3{
+h1, h2, h3, body > section.margin-bottom.bg-teal p:nth-child(1){
+    text-transform: ;
     font-family: 'Playfair Display', serif;
 }
 
-.bg-image p, .bg-teal{
-    color: #fff;
-}
-
-.txt-center{
-    text-align: center;
-}
-
-.pull-quote{
-
-    text-align: center;
-}
-h1{ 
-    color: #fff;
-    font-weight: 800;
-    
-}
-h1, h2, h3{
+section.margin-bottom.bg-teal p:nth-child(1) {
     text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    color: #F1EFEF;
 }
 
+h3, section.margin-bottom.bg-teal p:nth-child(1){
+    font-weight: 600;
+}
 
-.bg-image p, .bg-teal{
+p {
+    color: #343633;
+}
+
+.bg-image p, .bg-teal, body > div.bg-teal.margin-bottom > div > div > section > header > h2{
     color: #fff;
 }
 
@@ -103,13 +88,7 @@ h1, h2, h3{
 
 .pull-quote{
     text-align: center;
-    background-color: #358889;
 }
-
-.bg-image p, .bg-teal{
-    color: #fff;
-}
-
 
 /* Lists */
 li {
@@ -138,6 +117,10 @@ ul{
     margin-left: 0;
 }
 
+p a {
+    color: #F1EFEF;
+}
+
 
 /* Media */
 
@@ -157,9 +140,18 @@ nav li img {
 5.0 - OBJECTS 
 -------------------------------------------------------------- */
 
-
+.bg-gray {
+    padding: 1em 0;
+}
 
 /* FRAMEWORK */
+.margin-bottom{
+    margin: 3rem auto;
+}
+
+body > div:nth-child(5) > div, body > section.margin-bottom.grid-container, body > div.bg-teal.margin-bottom > div, body > div:nth-child(7) {
+    margin: 100px 0 100px 0;
+}
 
 /*--------------------------------------------------------------
 6.0 - COMPONENTS 
@@ -194,6 +186,19 @@ nav li img {
 }
 
 
+.btn {
+    border-radius: 1px;
+    border-color: #358889;
+    background-color: #358889;
+    padding: .6rem;
+}
+
+.btn:hover {
+    background-color: #45b4b6;
+    color: #f1efef;
+}
+
+
 /*-- NAVIGATION --*/
 
 footer div div{
@@ -225,23 +230,29 @@ footer .fa-facebook-f:hover, footer .fa-instagram:hover {
     color: #4abdbe;
 }
 
+header li {
+    margin-left: 0;
+}
+
+body > section.margin-bottom.bg-teal > div > div > div > p:nth-child(1) {
+
+}
+
 /*--------------------------------------------------------------
 7.0 - UTILITIES 
 -------------------------------------------------------------- */
 
 /*-- COLOR --*/
 
-.bg-gray, footer {
+.bg-gray {
     background-color: #f1efef;
 }
 
 .bg-teal {
     background-color: #358889;
+    padding: 2rem 0;
 }
 
-.bg-teal p{
-    color: #FFF;
-}
 
 /*-- ALIGNMENT --*/
 
