@@ -52,12 +52,14 @@ h1{
     font-size: 2rem;
     
 }
+h2{
+    font-size: 2rem;
+}
+
 h2, .bg-image p{ 
     font-weight: 700;
 }
-h2{
-    font-size: 1.75rem;
-}
+
 h3{
     font-weight: 500;
 }
@@ -65,6 +67,7 @@ h3{
 h1, h2, h3{
     font-family: 'Playfair Display', serif;
 }
+
 
 .bg-image p, .bg-teal{
     color: #fff;
@@ -76,6 +79,7 @@ h1, h2, h3{
 
 .pull-quote{
     text-align: center;
+    background-color: #358889;
 }
 
 .bg-image p, .bg-teal{
@@ -130,7 +134,6 @@ nav li img {
 
 
 /* FRAMEWORK */
-
 
 /*--------------------------------------------------------------
 6.0 - COMPONENTS 
@@ -202,16 +205,14 @@ footer .fa-facebook-f:hover, footer .fa-instagram:hover {
 
 /*-- COLOR --*/
 
-.bg-gray {
+.bg-gray, footer {
     background-color: #f1efef;
 }
 
 .bg-teal {
     background-color: #358889;
 }
-p{ 
-    color: #343633;
-}
+
 .bg-teal p{
     color: #FFF;
 }
