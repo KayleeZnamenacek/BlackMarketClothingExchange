@@ -37,7 +37,7 @@
 
 --------------------------------------------------------------*/
 *{
-    font: 1rem 'Lato', sans-serif;
+    font: 300 1rem 'Roboto', sans-serif;
 }
 /*--------------------------------------------------------------
 4.0 - ELEMENTS 
@@ -50,35 +50,27 @@ pull-quote{
 }
 h1{ 
     color: #fff;
-    font-weight: 800;
+    font-weight: 700;
+    font-size: 3rem;
     
 }
 
-h2 {
-    color: #358889;
+h2{ 
     font-weight: 700;
 }
 
-h1, h2, h3, body > section.margin-bottom.bg-teal p:nth-child(1){
-    text-transform: ;
-    font-family: 'Playfair Display', serif;
+h3{
+    font-weight: 400;
 }
 
-section.margin-bottom.bg-teal p:nth-child(1) {
-    text-transform: uppercase;
-    font-size: 1.5em;
-    color: #F1EFEF;
+h1, h2, h3{
+    font-family: 'Tinos', serif;
 }
 
-h3, section.margin-bottom.bg-teal p:nth-child(1){
-    font-weight: 600;
+.bg-image p, .top-bar {
+    font-weight: 500;
 }
-
-p {
-    color: #343633;
-}
-
-.bg-image p, .bg-teal, body > div.bg-teal.margin-bottom > div > div > section > header > h2{
+.bg-image p, .bg-teal{
     color: #fff;
 }
 
