@@ -36,7 +36,7 @@
 
 --------------------------------------------------------------*/
 *{
-    font: 1rem 'Lato', sans-serif;
+    font: 300 1rem 'Roboto', sans-serif;
 }
 /*--------------------------------------------------------------
 4.0 - ELEMENTS 
@@ -48,27 +48,29 @@
 
 h1{ 
     color: #fff;
-    font-weight: 800;
-    font-size: 2rem;
+    font-weight: 700;
+    font-size: 3rem;
     
 }
 h2{
     font-size: 2rem;
 }
 
-h2, .bg-image p{ 
+h2{ 
     font-weight: 700;
 }
 
 h3{
-    font-weight: 500;
+    font-weight: 400;
 }
 
 h1, h2, h3{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Tinos', serif;
 }
 
-
+.bg-image p, .top-bar {
+    font-weight: 500;
+}
 .bg-image p, .bg-teal{
     color: #fff;
 }
