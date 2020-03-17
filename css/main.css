@@ -95,6 +95,14 @@ header li{
     padding-left: 0;
 }
 
+#example-menu > div > ul > li> a {
+    font-weight: 500;
+}
+
+#example-menu > div > ul > li> a:hover {
+    color: #4abdbe;
+}
+
 header nav li {
     display: block;
 }
@@ -197,6 +205,7 @@ footer div div{
     display: inline-block;
     
 }
+
 
 footer{
     background-color: #f1efef;
