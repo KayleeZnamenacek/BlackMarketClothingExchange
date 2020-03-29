@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 
 /*--------------------------------------------------------------
@@ -45,6 +46,9 @@
 /* TYPOGRAPHY */
 
 
+h1, h2, h3{
+    font-family: 'Tinos', serif;
+}
 
 h1{ 
     color: #fff;
@@ -52,20 +56,14 @@ h1{
     font-size: 3rem;
     
 }
-h2{
-    font-size: 2rem;
-}
 
 h2{ 
     font-weight: 700;
+    font-size: 2rem;
 }
 
 h3{
     font-weight: 400;
-}
-
-h1, h2, h3{
-    font-family: 'Tinos', serif;
 }
 
 .bg-image p, .top-bar {
@@ -81,13 +79,12 @@ h1, h2, h3{
 
 .pull-quote{
     text-align: center;
-    background-color: #358889;
+    
 }
-
-.bg-image p, .bg-teal{
-    color: #fff;
+.pull-quote p {
+    font-size: 1.2rem;
+    font-weight: 700;
 }
-
 
 /* Lists */
 li {
@@ -102,17 +99,31 @@ header li{
     padding-left: 0;
 }
 
+#example-menu > div > ul > li> a {
+    font-weight: 500;
+}
+
+#example-menu > div > ul > li> a:hover {
+    color: #4abdbe;
+}
+
 header nav li {
     display: block;
 }
 
 .sprites li{
     display: inline-block;
-    margin: 0 1em 0 0 ;
+    margin:0 1em 0 0 ;
 }
 
 
+ul{
+    margin-left: 0;
+}
 
+p a {
+    color: #F1EFEF;
+}
 
 
 /* Media */
@@ -133,9 +144,18 @@ nav li img {
 5.0 - OBJECTS 
 -------------------------------------------------------------- */
 
-
+.bg-gray {
+    padding: 1em 0;
+}
 
 /* FRAMEWORK */
+.margin-bottom{
+    margin: 3rem auto;
+}
+
+body > div:nth-child(5) > div, body > section.margin-bottom.grid-container, body > div.bg-teal.margin-bottom > div, body > div:nth-child(7) {
+    margin: 100px 0 100px 0;
+}
 
 /*--------------------------------------------------------------
 6.0 - COMPONENTS 
@@ -170,12 +190,26 @@ nav li img {
 }
 
 
+.btn {
+    border-radius: 1px;
+    border-color: #358889;
+    background-color: #358889;
+    padding: .6rem;
+}
+
+.btn:hover {
+    background-color: #45b4b6;
+    color: #f1efef;
+}
+
+
 /*-- NAVIGATION --*/
 
 footer div div{
     display: inline-block;
     
 }
+
 
 footer{
     background-color: #f1efef;
@@ -201,23 +235,29 @@ footer .fa-facebook-f:hover, footer .fa-instagram:hover {
     color: #4abdbe;
 }
 
+header li {
+    margin-left: 0;
+}
+
+body > section.margin-bottom.bg-teal > div > div > div > p:nth-child(1) {
+
+}
+
 /*--------------------------------------------------------------
 7.0 - UTILITIES 
 -------------------------------------------------------------- */
 
 /*-- COLOR --*/
 
-.bg-gray, footer {
+.bg-gray {
     background-color: #f1efef;
 }
 
 .bg-teal {
     background-color: #358889;
+    padding: 2rem 0;
 }
 
-.bg-teal p{
-    color: #FFF;
-}
 
 /*-- ALIGNMENT --*/
 
