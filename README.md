@@ -20,9 +20,9 @@ Along with that, they hold events at their glamhouse location. They hold private
 </p>All files and images belong to the client.</p>
 
 # Contact Us
-<a href="mailto:kayleeznamenacek@gmail.com">kayleeznamenacek@gmail.com</a>
+<a href="mailto:kayleeznamenacek@gmail.com">kayleeznamenacek@gmail.com</a><br>
 <a href="mailto:emmabschaible@gmail.com">emmabschaible@gmail.com</a>
 
-#Contributors
+# Contributors
 <p>Kaylee Znamenacek & Emma Schaible</p>
 <p>All content came from client</p>
