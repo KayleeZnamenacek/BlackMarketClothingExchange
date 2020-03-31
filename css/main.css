@@ -108,7 +108,7 @@ p{
     font-size: 1rem;
 }
 
-body > section.grid-container > div > div:nth-child(3) > p {
+.bolditalic p {
     font-weight: 500;
     font-style: italic;
 }
