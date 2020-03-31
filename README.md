@@ -15,7 +15,7 @@ All images used within the website are in the images folder.
 The framework used is Foundation v6.6.1.
 
 License and Attribution
-All files and images belong to the client to use. 
+All files and images belong to the client.
 
 Contact Us
 kayleeznamenacek@gmail.com
