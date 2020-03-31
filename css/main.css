@@ -157,9 +157,7 @@ nav li img {
     margin: 3rem auto;
 }
 
-body > div:nth-child(5) > div, body > section.margin-bottom.grid-container, body > div.bg-teal.margin-bottom > div, body > div:nth-child(7) {
-    margin: 100px 0 100px 0;
-}
+
 
 /*--------------------------------------------------------------
 6.0 - COMPONENTS 
@@ -199,6 +197,7 @@ body > div:nth-child(5) > div, body > section.margin-bottom.grid-container, body
     border-color: #358889;
     background-color: #358889;
     padding: .6rem;
+    color: #fff;
 }
 
 .btn:hover {
@@ -257,7 +256,7 @@ header li {
 
 .bg-teal {
     background-color: #358889;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 
